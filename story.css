@@ -41,8 +41,9 @@
 .offer-copy h3{font-family:var(--display);font-size:clamp(34px,3.2vw,46px);line-height:1.07}
 .offer-copy>p:not(.offer-label){font-size:13px;line-height:1.7;color:var(--subtle);max-width:420px;margin:12px 0 17px}
 .offer-copy ul{list-style:none;display:grid;gap:6px;padding:0;margin:0 0 15px}
-.offer-copy li{position:relative;padding-left:16px;font-size:12px;line-height:1.65;color:var(--subtle)}
-.offer-copy li:before{content:'↗';position:absolute;left:0;color:var(--accent);font-size:10px}
+.offer-copy li{position:relative;padding-left:0;font-size:12px;line-height:1.65;color:var(--subtle)}
+.offer-copy ul{list-style:disc;padding-left:16px}
+.offer-copy li::marker{color:var(--subtle)}
 .offer-copy .text-link{font-size:12px;min-height:44px;gap:25px}
 .offers-included{display:grid;grid-template-columns:1.25fr .75fr;gap:9%;border-bottom:1px solid var(--line);padding:21px 0}
 .offers-included p,.offers-extra p{font-size:12px;color:var(--subtle);line-height:1.75;margin:0}
@@ -71,7 +72,7 @@
 .coverage-row p{font-size:12px;color:var(--subtle);line-height:1.8;margin:12px 0 7px;max-width:410px}
 .coverage-meta{display:flex;align-items:center;justify-content:space-between;gap:14px;font-size:10px;color:var(--accent)}
 .coverage-meta>a{display:inline-flex;gap:18px;align-items:center;min-height:44px;font-size:11px;font-weight:600;text-decoration:underline;text-underline-offset:5px}
-.coverage-meta>a span{font-size:18px}
+
 .booking-refresh{background:var(--tint)}
 .booking-refresh .booking-layout{padding-top:76px;padding-bottom:76px}
 .booking-refresh .booking-support{max-width:390px}

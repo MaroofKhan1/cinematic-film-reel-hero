@@ -57,3 +57,11 @@
 .social-strip{scrollbar-width:thin;scrollbar-color:var(--line) transparent}.social-strip::-webkit-scrollbar{height:4px}.social-strip::-webkit-scrollbar-track{background:transparent}.social-strip::-webkit-scrollbar-thumb{background:var(--line);border-radius:3px}
 
 /* Playback preference lives with the site utilities, leaving the hero unobstructed. */
+
+/* Purposeful icons: platform identity, email and media playback. No decorative arrows. */
+.ui-icon{display:inline-block;vertical-align:middle;flex:none;width:20px;height:20px;fill:currentColor}
+.social-link{display:inline-flex;align-items:center;gap:10px}
+.text-link.social-link{gap:10px}
+.footer-contact a{gap:10px}
+.footer-contact .ui-icon{width:18px;height:18px}
+.media-open .ui-icon{width:18px;height:18px}
